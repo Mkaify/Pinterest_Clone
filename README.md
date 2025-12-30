@@ -149,11 +149,11 @@ pinterest-clone/
   <tr>
     <td align="center">
       <img src="images/1.png" alt="Home Feed" width="400"/>
-      <br/><b>Home Feed - Masonry Grid Layout</b>
+      <br/><b>Guest View</b>
     </td>
     <td align="center">
       <img src="images/2.png" alt="Pin Hover" width="400"/>
-      <br/><b>Pin Interactions & Hover Effects</b>
+      <br/><b>Login/SignUp</b>
     </td>
   </tr>
 </table>
@@ -163,7 +163,7 @@ pinterest-clone/
   <tr>
     <td align="center">
       <img src="images/3.png" alt="Search Results" width="400"/>
-      <br/><b>Search Results - Pins & Users</b>
+      <br/><b>Home Feed</b>
     </td>
     <td align="center">
       <img src="images/4.png" alt="User Search" width="400"/>
@@ -177,11 +177,11 @@ pinterest-clone/
   <tr>
     <td align="center">
       <img src="images/5.png" alt="User Profile" width="400"/>
-      <br/><b>User Profile View</b>
+      <br/><b>Searching</b>
     </td>
     <td align="center">
       <img src="images/6.png" alt="Profile Tabs" width="400"/>
-      <br/><b>Profile Tabs - Created vs Saved</b>
+      <br/><b>Explore</b>
     </td>
   </tr>
 </table>
@@ -191,11 +191,11 @@ pinterest-clone/
   <tr>
     <td align="center">
       <img src="images/7.png" alt="Pin Detail" width="400"/>
-      <br/><b>Pin Detail View</b>
+      <br/><b>Create Pin</b>
     </td>
     <td align="center">
       <img src="images/8.png" alt="Pin Actions" width="400"/>
-      <br/><b>Pin Save & Like Actions</b>
+      <br/><b>Messages/Inbox</b>
     </td>
   </tr>
 </table>
@@ -205,11 +205,11 @@ pinterest-clone/
   <tr>
     <td align="center">
       <img src="images/9.png" alt="Create Pin" width="400"/>
-      <br/><b>Create New Pin</b>
+      <br/><b>Updates Pop-Up</b>
     </td>
     <td align="center">
       <img src="images/10.png" alt="Upload Interface" width="400"/>
-      <br/><b>Image Upload Interface</b>
+      <br/><b>Favourite Pins</b>
     </td>
   </tr>
 </table>
@@ -219,11 +219,11 @@ pinterest-clone/
   <tr>
     <td align="center">
       <img src="images/11.png" alt="Login" width="400"/>
-      <br/><b>Login Page</b>
+      <br/><b>User Profile</b>
     </td>
     <td align="center">
       <img src="images/12.png" alt="Signup" width="400"/>
-      <br/><b>Sign Up Page</b>
+      <br/><b>Settings Dashboard</b>
     </td>
   </tr>
 </table>
@@ -233,11 +233,11 @@ pinterest-clone/
   <tr>
     <td align="center">
       <img src="images/13.png" alt="User Settings" width="400"/>
-      <br/><b>User Settings Dashboard</b>
+      <br/><b>Profile Settings</b>
     </td>
     <td align="center">
       <img src="images/14.png" alt="Privacy Settings" width="400"/>
-      <br/><b>Privacy & Security Settings</b>
+      <br/><b>Password Settings</b>
     </td>
   </tr>
 </table>
@@ -247,15 +247,15 @@ pinterest-clone/
   <tr>
     <td align="center">
       <img src="images/15.png" alt="Mobile View" width="300"/>
-      <br/><b>Mobile Responsive Layout</b>
+      <br/><b>Privacy Settings</b>
     </td>
     <td align="center">
       <img src="images/16.png" alt="Tablet View" width="350"/>
-      <br/><b>Tablet View</b>
+      <br/><b>Notification Settings</b>
     </td>
     <td align="center">
       <img src="images/17.png" alt="Navigation" width="300"/>
-      <br/><b>Mobile Navigation</b>
+      <br/><b>Account Settings</b>
     </td>
   </tr>
 </table>
