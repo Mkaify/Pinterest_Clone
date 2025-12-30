@@ -28,6 +28,28 @@ A full-featured Pinterest clone built with Next.js 14, featuring user authentica
 - **Sidebar Navigation** with intuitive iconography
 - **Real-time Updates** with optimistic UI patterns
 
+## 📁 Project Structure
+
+```
+pinterest-clone/
+├── src/
+│   ├── app/                    # Next.js App Router pages
+│   │   ├── api/               # API routes
+│   │   ├── auth/              # Authentication pages
+│   │   ├── create/            # Pin creation
+│   │   ├── pin/[id]/          # Pin details
+│   │   ├── search/            # Search functionality
+│   │   └── user/              # User profiles & settings
+│   ├── components/            # Reusable UI components
+│   │   ├── navbar/            # Navigation components
+│   │   ├── masonry/           # Grid layout
+│   │   └── providers/         # Context providers
+│   └── lib/                   # Utility functions
+├── prisma/                    # Database schema & migrations
+├── public/                    # Static assets
+└── images/                    # Project screenshots
+```
+
 ## 📸 Screenshots
 
 ### 🏠 Home & Feed
@@ -224,54 +246,6 @@ A full-featured Pinterest clone built with Next.js 14, featuring user authentica
 - **UI Components**: Custom components with Tailwind
 - **Icons**: Heroicons
 - **Deployment**: Vercel/Netlify ready
-
-## 📁 Project Structure
-
-```
-pinterest-clone/
-├── src/
-│   ├── app/                    # Next.js App Router pages
-│   │   ├── api/               # API routes
-│   │   ├── auth/              # Authentication pages
-│   │   ├── create/            # Pin creation
-│   │   ├── pin/[id]/          # Pin details
-│   │   ├── search/            # Search functionality
-│   │   └── user/              # User profiles & settings
-│   ├── components/            # Reusable UI components
-│   │   ├── navbar/            # Navigation components
-│   │   ├── masonry/           # Grid layout
-│   │   └── providers/         # Context providers
-│   └── lib/                   # Utility functions
-├── prisma/                    # Database schema & migrations
-├── public/                    # Static assets
-└── images/                    # Project screenshots
-```
-
-## 🌟 Key Features Breakdown
-
-### Authentication System
-- **NextAuth.js** integration with Google OAuth
-- **Email/Password** authentication with bcrypt
-- **Session management** with secure cookies
-- **Protected routes** and API endpoints
-
-### Pin Management
-- **Image uploads** with Cloudinary integration
-- **CRUD operations** for pins with Prisma
-- **Save/Like system** with user associations
-- **Optimistic UI updates** for better UX
-
-### User Discovery
-- **Search functionality** for users and pins
-- **Privacy-respecting** search results
-- **Follow/Unfollow** system with real-time updates
-- **Profile visibility** controls
-
-### Modern UI/UX
-- **Masonry grid** layout like Pinterest
-- **Responsive design** for all screen sizes
-- **Loading states** and error handling
-- **Smooth animations** and transitions
 
 ## 🚢 Deployment
 
