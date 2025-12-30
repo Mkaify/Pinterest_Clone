@@ -50,6 +50,98 @@ pinterest-clone/
 └── images/                    # Project screenshots
 ```
 
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js 18+ 
+- npm/pnpm/yarn
+- Google Cloud Console account (for OAuth)
+- Cloudinary account (for image uploads)
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Mkaify/Pinterest_Clone.git
+   cd Pinterest_Clone
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   pnpm install
+   # or
+   yarn install
+   ```
+
+3. **Environment Setup**
+   ```bash
+   cp env.example .env.local
+   ```
+   
+   Fill in your environment variables in `.env.local`:
+   ```env
+   # Database
+   DATABASE_URL="file:./dev.db"  # SQLite for development
+   
+   # NextAuth
+   NEXTAUTH_URL="http://localhost:3000"
+   NEXTAUTH_SECRET="your-nextauth-secret-here"
+   
+   # Google OAuth
+   GOOGLE_CLIENT_ID="your-google-client-id"
+   GOOGLE_CLIENT_SECRET="your-google-client-secret"
+   
+   # Cloudinary
+   CLOUDINARY_CLOUD_NAME="your-cloud-name"
+   CLOUDINARY_API_KEY="your-api-key"
+   CLOUDINARY_API_SECRET="your-api-secret"
+   ```
+
+4. **Database Setup**
+   ```bash
+   npx prisma generate
+   npx prisma db push
+   ```
+
+5. **Run the development server**
+   ```bash
+   npm run dev
+   # or
+   pnpm dev
+   # or
+   yarn dev
+   ```
+
+6. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000)
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 14 (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Database**: Prisma ORM with SQLite/PostgreSQL
+- **Authentication**: NextAuth.js with Google OAuth
+- **Image Upload**: Cloudinary
+- **UI Components**: Custom components with Tailwind
+- **Icons**: Heroicons
+- **Deployment**: Vercel/Netlify ready
+
+## 🚢 Deployment
+
+### Vercel (Recommended)
+1. Push code to GitHub
+2. Connect repository to Vercel
+3. Configure environment variables
+4. Deploy automatically
+
+### Environment Variables for Production
+- Use PostgreSQL for production database
+- Update `NEXTAUTH_URL` to your domain
+- Configure OAuth callbacks for production domain
+
 ## 📸 Screenshots
 
 ### 🏠 Home & Feed
@@ -167,98 +259,6 @@ pinterest-clone/
     </td>
   </tr>
 </table>
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Node.js 18+ 
-- npm/pnpm/yarn
-- Google Cloud Console account (for OAuth)
-- Cloudinary account (for image uploads)
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/Mkaify/Pinterest_Clone.git
-   cd Pinterest_Clone
-   ```
-
-2. **Install dependencies**
-   ```bash
-   npm install
-   # or
-   pnpm install
-   # or
-   yarn install
-   ```
-
-3. **Environment Setup**
-   ```bash
-   cp env.example .env.local
-   ```
-   
-   Fill in your environment variables in `.env.local`:
-   ```env
-   # Database
-   DATABASE_URL="file:./dev.db"  # SQLite for development
-   
-   # NextAuth
-   NEXTAUTH_URL="http://localhost:3000"
-   NEXTAUTH_SECRET="your-nextauth-secret-here"
-   
-   # Google OAuth
-   GOOGLE_CLIENT_ID="your-google-client-id"
-   GOOGLE_CLIENT_SECRET="your-google-client-secret"
-   
-   # Cloudinary
-   CLOUDINARY_CLOUD_NAME="your-cloud-name"
-   CLOUDINARY_API_KEY="your-api-key"
-   CLOUDINARY_API_SECRET="your-api-secret"
-   ```
-
-4. **Database Setup**
-   ```bash
-   npx prisma generate
-   npx prisma db push
-   ```
-
-5. **Run the development server**
-   ```bash
-   npm run dev
-   # or
-   pnpm dev
-   # or
-   yarn dev
-   ```
-
-6. **Open your browser**
-   Navigate to [http://localhost:3000](http://localhost:3000)
-
-## 🛠️ Tech Stack
-
-- **Framework**: Next.js 14 (App Router)
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS
-- **Database**: Prisma ORM with SQLite/PostgreSQL
-- **Authentication**: NextAuth.js with Google OAuth
-- **Image Upload**: Cloudinary
-- **UI Components**: Custom components with Tailwind
-- **Icons**: Heroicons
-- **Deployment**: Vercel/Netlify ready
-
-## 🚢 Deployment
-
-### Vercel (Recommended)
-1. Push code to GitHub
-2. Connect repository to Vercel
-3. Configure environment variables
-4. Deploy automatically
-
-### Environment Variables for Production
-- Use PostgreSQL for production database
-- Update `NEXTAUTH_URL` to your domain
-- Configure OAuth callbacks for production domain
 
 ## 🤝 Contributing
 
